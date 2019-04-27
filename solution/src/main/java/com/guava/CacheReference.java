@@ -13,6 +13,7 @@ import java.util.concurrent.TimeUnit;
 public class CacheReference {
     private LoadingCache<Key, String> capacityCache = CacheBuilder.newBuilder()
             .refreshAfterWrite(1, TimeUnit.MINUTES)
+            .softValues()
             .build(new CacheLoader<Key, String>() {
                 @Override
                 public String load(Key key) {
@@ -29,7 +30,7 @@ public class CacheReference {
         CacheReference cacheReference = new CacheReference();
         cacheReference.getCache();
         // System.gc();
-        Thread.sleep(30000);
+        Thread.sleep(3000);
         for (int i = 0; i < 1000; i++) {
             CacheReference cacheReference1 = new CacheReference();
         }
