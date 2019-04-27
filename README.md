@@ -1,2 +1,2 @@
-# leet-code
-my leet code solution
+# lab
+My Java lab
