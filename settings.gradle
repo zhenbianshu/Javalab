@@ -1,0 +1,4 @@
+rootProject.name = 'Javalab'
+include 'lab'
+include 'leet-code'
+

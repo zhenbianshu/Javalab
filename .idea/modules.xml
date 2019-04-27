@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Javalab.iml" filepath="$PROJECT_DIR$/Javalab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Javalab_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Javalab_main.iml" group="Javalab" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Javalab_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Javalab_test.iml" group="Javalab" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lab.iml" filepath="$PROJECT_DIR$/.idea/modules/lab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/leet-code.iml" filepath="$PROJECT_DIR$/.idea/modules/leet-code.iml" />
+    </modules>
+  </component>
+</project>
