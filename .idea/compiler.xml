@@ -4,6 +4,10 @@
     <bytecodeTargetLevel>
       <module name="Javalab_main" target="1.8" />
       <module name="Javalab_test" target="1.8" />
+      <module name="lab_main" target="1.8" />
+      <module name="lab_test" target="1.8" />
+      <module name="leet-code_main" target="1.8" />
+      <module name="leet-code_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
